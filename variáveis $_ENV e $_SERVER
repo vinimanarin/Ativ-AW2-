@@ -1,0 +1,9 @@
+$_SERVER
+<?php
+	foreach ($_SERVER as $parm => $value)  echo "$parm = '$value'\n";
+?>
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+$_ENV
+<?php
+echo 'My username is ' .$_ENV["USER"] . '!';
+?>
