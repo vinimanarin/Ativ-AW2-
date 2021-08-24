@@ -2,8 +2,31 @@ $_SERVER
 <?php
 	foreach ($_SERVER as $parm => $value)  echo "$parm = '$value'\n";
 ?>
+<?php
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
+echo $_SERVER['SERVER_NAME'];
+echo "<br>";
+echo $_SERVER['HTTP_HOST'];
+echo "<br>";
+echo $_SERVER['HTTP_REFERER'];
+echo "<br>";
+echo $_SERVER['HTTP_USER_AGENT'];
+echo "<br>";
+echo $_SERVER['SCRIPT_NAME'];
+?>
+
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 $_ENV
 <?php
 echo 'My username is ' .$_ENV["USER"] . '!';
+?>
+echo "Ian: " . getenv("IAN");
+
+$arr=getenv();
+foreach ($arr as $key=>$val)
+echo "$key=>$val";
+
+echo $_ENV['USER'];
+
 ?>
