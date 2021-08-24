@@ -3,7 +3,8 @@
 <body>
 
 <form method="get" action="exercicio-aw2.php">
-    <div>Entre com um texto/frase: <input type="text" name="texto" > >/div>
+<h1> Ler/Escrever em Arquivos - Exercício </h1>
+    <div>Entre com um texto/frase: <input type="text" name="texto" > </div>
     <input type="submit" name="gravacao" value="Gravar em arquivo"> 
 </form>
 
